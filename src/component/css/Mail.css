@@ -1,0 +1,72 @@
+.mail {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  flex: 0.92;
+  border-right: 2px solid rgba(98, 98, 98);
+}
+.mail_containerTop {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.mailTop > .MuiSvgIcon-root {
+  color: rgba(255, 255, 255, 0.643);
+  cursor: pointer;
+  margin-left: 10px;
+}
+.mailTopRight {
+  display: flex;
+}
+.mailTopRight > .MuiSvgIcon-root {
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.643);
+  cursor: pointer;
+}
+.checkbox {
+  margin-top: -15px !important;
+}
+.mail_containerMid {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.207);
+  border-bottom: 1px solid #aaa;
+}
+.mail_containerMidOptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.mail_containerMidOption {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.mail_containerMidOption:hover {
+  background-color: rgba(68, 68, 68, 0.642);
+}
+.mail_containerMidOption:hover > h3 {
+  color: white;
+}
+.mail_containerMidOption > h3 {
+  color: #ccc;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.mail_containerMidOption > .MuiSvgIcon-root {
+  color: rgba(255, 255, 255, 0.643);
+}
+.mail_containerMidOption:hover > .MuiSvgIcon-root {
+  color: white;
+}
+.mail_containerMain {
+  overflow: Scroll;
+  -ms-overflow-style: none;
+}
+.mail_containerMain::-webkit-scrollbar {
+  display: none;
+}
