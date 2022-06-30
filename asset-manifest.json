@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MailMyMail/static/css/main.3a362831.css",
+    "main.js": "/MailMyMail/static/js/main.3db42e4c.js",
+    "index.html": "/MailMyMail/index.html",
+    "main.3a362831.css.map": "/MailMyMail/static/css/main.3a362831.css.map",
+    "main.3db42e4c.js.map": "/MailMyMail/static/js/main.3db42e4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a362831.css",
+    "static/js/main.3db42e4c.js"
+  ]
+}
